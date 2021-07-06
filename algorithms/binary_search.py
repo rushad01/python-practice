@@ -14,9 +14,14 @@ def binary_search(list, item):
     return None
 
 
-my_array = [1, 2, 3, 4, 5, 7, 9, 11, 16, 30, 43, 55,
-            67, 68, 69, 71, 75, 77, 79, 80, 92, 93, 95, 99, 100]
+def main():
+    my_array = [1, 2, 3, 4, 5, 7, 9, 11, 16, 30, 43, 55,
+                67, 68, 69, 71, 75, 77, 79, 80, 92, 93, 95, 99, 100]
 
-print(binary_search(my_array, 1))
-print(binary_search(my_array, 75))
-print(binary_search(my_array, 94))
+    print(binary_search(my_array, 1))
+    print(binary_search(my_array, 75))
+    print(binary_search(my_array, 94))
+
+
+if __name__ == "__main__":
+    main()
